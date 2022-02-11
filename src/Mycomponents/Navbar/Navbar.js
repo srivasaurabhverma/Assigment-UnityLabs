@@ -9,7 +9,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Hacker News
           </a>
           <button
             class="navbar-toggler"
