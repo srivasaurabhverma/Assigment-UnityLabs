@@ -23,7 +23,7 @@ function Home() {
           onClick={() => {
             let inpt = document.getElementById("input_text");
             let datas = inpt.value;
-            let url = `http://hn.algolia.com/api/v1/search?query=${datas}`;
+            let url = `https://hn.algolia.com/api/v1/search?query=${datas}`;
             if (url == "") {
               console.log("Opps We are not able to find the desired result");
             } else {

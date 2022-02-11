@@ -9,7 +9,7 @@ function Comments() {
   let id = localStorage.getItem("Id");
 
   useEffect(async () => {
-    const result = await axios(`http://hn.algolia.com/api/v1/items/${id}`);
+    const result = await axios(`https://hn.algolia.com/api/v1/items/${id}`);
 
     localStorage.setItem("points", result.data.points);
     setData(result.data);
