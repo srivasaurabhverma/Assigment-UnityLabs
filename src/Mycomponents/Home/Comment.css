@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,400;0,700;1,300;1,400&family=Roboto:wght@300;400&display=swap');
+.comment {
+  width: 80%;
+  /* background-color: aliceblue; */
+  height: fit-content;
+  margin: auto;
+  padding: 40px;
+  word-wrap: break-word;
+  line-height: 30px;
+  font-size: 17px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+@media screen and (max-width: 650px) {
+  .comment {
+    width: 100%;
+  }
+}

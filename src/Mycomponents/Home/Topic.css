@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,400;0,700;1,300;1,400&family=Roboto:wght@300;400&display=swap');
+
+.Topic {
+  width: 70% !important;
+  height: 200px;
+
+  background-color: rgb(227, 239, 250);
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.title {
+  margin-top: 5px;
+}
+.descreption {
+  margin-top: 23px;
+  font-style: italic;
+}
+.links {
+  cursor: pointer;
+}
+.author {
+  display: inline;
+  float: right;
+  font-size: large;
+  font-weight: 400;
+}
+.athr{
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+@media screen and (max-width: 564px) {
+  .Topic {
+    width: 90% !important;
+    height: 200px !important;
+  }
+  .title > h3 {
+    font-size: 20px !important;
+  }
+}
